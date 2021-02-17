@@ -1,0 +1,51 @@
+.csads-ad {
+    border-bottom: 1px dotted #ccc;
+    display: flex;
+    padding: 12px;
+}
+.csads-ad-desc {
+    font-size: 1rem;
+}
+.csads-ad-tag {
+    display: inline;
+    list-style-type: none;
+    padding-right: 16px;
+}
+.csads-ad-tag a {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 4px 6px;
+    text-decoration: none;
+}
+.csads-ad-tag a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-decoration: none;
+}
+.csads-ad-tags {
+    padding: 6px 0 0 0;
+}
+.csads-ad-img {
+    height: 80px;
+    min-height: 80px;
+    min-width: 80px;
+    width: 80px;
+}
+.csads-ad-img-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 24px;
+}
+.csads-ad-title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.csads-ad-title a {
+    text-decoration: none;
+}
+.csads-ads-container {
+    display: block;
+}
